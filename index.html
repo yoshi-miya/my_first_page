@@ -1,11 +1,33 @@
 <!DOCTYPE html>                                                     <!-- HTML5で書くことを宣言します。 -->
 <html lang="ja">                                                    <!-- HTML文書全体を囲むタグ。 -->
-<head>                                                              <!-- ページの情報（タイトルやCSS、メタ情報など）を入れる場所。 -->
-    <meta charset="UTF-8">
-    <title>自己紹介ページ</title>                                     <!-- ブラウザタブに表示されるページタイトル。 -->
-</head>
-<body>                                                              <!-- ページに表示される内容を入れる場所。 -->
-    <h1>田中 よしお</h1>                                               <!-- 見出し h1が最大 h6まで -->
-    <p>自己紹介ページは<a href="about.html">こちら</a></p>   <!-- 段落（文章のまとまり）-->
-</body>
+    <head>                                                              <!-- ページの情報（タイトルやCSS、メタ情報など）を入れる場所。 -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>自己紹介ページ</title>                                     <!-- ブラウザタブに表示されるページタイトル。 -->
+    </head>
+    <body>                                                              <!-- ページに表示される内容を入れる場所。 -->
+        <header>
+            <h1>自己紹介ページ</h1>
+            <nav>
+                <a href="index.html">ホーム</a> |
+                <a href="about.html">プロフィール</a> |
+                <a href="https://zaitaku-fukugyo-challenge.blogspot.com/" target="_blank">ブログ</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>自己紹介</h2>
+                <p><a href="about.html">about 田中よしお</a></p>
+            </section>
+            <section>
+                <h2>SNS等</h2>
+                <p><a href="https://x.com/yoshio_fukugyo" target="_blank">X(旧Twitter)はこちら</a></p>
+                <p><a href="https://zaitaku-fukugyo-challenge.blogspot.com/" target="_blank">ブログはこちら</a></p>
+            </section>
+        </main>
+        <footer>
+            <p>© 2025 Yoshio Tanaka</p>
+        </footer>
+    </body>
 </html>

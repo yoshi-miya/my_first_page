@@ -1,14 +1,32 @@
 <!DOCTYPE html>                                                     <!-- HTML5で書くことを宣言します。 -->
 <html lang="ja">                                                    <!-- HTML文書全体を囲むタグ。 -->
-<head>                                                              <!-- ページの情報（タイトルやCSS、メタ情報など）を入れる場所。 -->
-    <meta charset="UTF-8">
-    <title>自己紹介ページ</title>                                     <!-- ブラウザタブに表示されるページタイトル。 -->
-</head>
-<body>
-<h1>自己紹介ページ</h1>
-<h2>プロフィール</h2>
-<p>こんにちは、ITエンジニアです。プログラミングを学び直しています。</p>
-<img src="images/profile.jpg" alt="プロフィール画像" width="200">
-<p>詳しくはこちら：<a href="https://example.com" target="_blank">ポートフォリオ</a></p>
-</body>
+    <head>                                                              <!-- ページの情報（タイトルやCSS、メタ情報など）を入れる場所。 -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>about 田中よしお</title>                                     <!-- ブラウザタブに表示されるページタイトル。 -->
+    </head>
+    <body>
+        <header>
+            <h1>about 田中よしお</h1>
+            <nav>
+                <a href="index.html">ホーム</a> |
+                <a href="about.html">プロフィール</a> |
+                <a href="https://zaitaku-fukugyo-challenge.blogspot.com/" target="_blank">ブログ</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>プロフィール</h2>
+                <p>
+                    こんにちは、ITエンジニアの田中よしおです。Web制作を学習中です。<br>
+                    シンプルで見やすいサイトづくりを心がけています。
+                </p>
+                <img src="images/profile.jpg" alt="プロフィール画像" width="200">
+            </section>
+        </main>
+        <footer>
+            <p>© 2025 Yoshio Tanaka</p>
+        </footer>
+    </body>
 </html>
