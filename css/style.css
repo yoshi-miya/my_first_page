@@ -1,0 +1,76 @@
+/* 全体の設定 */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ページ全体のレイアウト */
+header, footer {
+    background-color: #004080;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 見出し */
+h1 {
+    color: #fff;
+}
+ h2 {
+    color: #004080;
+}
+
+/* ナビゲーション */
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* テーブル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+th {
+    background-color: #e0e0ff;
+}
+
+/* SNSリンクリスト */
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+}
+a {
+    color: #007acc;
+}
+a:hover {
+    color: #005fa3;
+}
+
+/* 画像 */
+img {
+    border-radius: 10px;
+}
